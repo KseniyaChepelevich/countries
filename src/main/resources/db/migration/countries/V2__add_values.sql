@@ -1,184 +1,346 @@
-INSERT INTO countries.country (name, country_code) VALUES('Танзания', 'TZ');
-INSERT INTO countries.country (name, country_code) VALUES('Фиджи', 'FJ');
-INSERT INTO countries.country (name, country_code) VALUES('Западная Сахара', 'EH');
-INSERT INTO countries.country (name, country_code) VALUES('Канада', 'CA');
-INSERT INTO countries.country (name, country_code) VALUES('Соединенные Штаты', 'US');
-INSERT INTO countries.country (name, country_code) VALUES('Казахстан', 'KZ');
-INSERT INTO countries.country (name, country_code) VALUES('Узбекистан', 'UZ');
-INSERT INTO countries.country (name, country_code) VALUES('Папуа Новая Гвинея', 'PG');
-INSERT INTO countries.country (name, country_code) VALUES('Индонезия', 'ID');
-INSERT INTO countries.country (name, country_code) VALUES('Аргентина', 'AR');
-INSERT INTO countries.country (name, country_code) VALUES('Чили', 'CL');
-INSERT INTO countries.country (name, country_code) VALUES('Демократическая Республика Конго', 'CD');
-INSERT INTO countries.country (name, country_code) VALUES('Сомалия', 'SO');
-INSERT INTO countries.country (name, country_code) VALUES('Кения', 'KE');
-INSERT INTO countries.country (name, country_code) VALUES('Судан', 'SD');
-INSERT INTO countries.country (name, country_code) VALUES('Чад', 'TD');
-INSERT INTO countries.country (name, country_code) VALUES('Хаити', 'HT');
-INSERT INTO countries.country (name, country_code) VALUES('Доминиканская Республика', 'DO');
-INSERT INTO countries.country (name, country_code) VALUES('Россия', 'RU');
-INSERT INTO countries.country (name, country_code) VALUES('Багамы', 'BS');
-INSERT INTO countries.country (name, country_code) VALUES('Фолклендские острова', 'FK');
-INSERT INTO countries.country (name, country_code) VALUES('Норвегия', 'NO');
-INSERT INTO countries.country (name, country_code) VALUES('Гринландия', 'GL');
-INSERT INTO countries.country (name, country_code) VALUES('Тимор-Лешти', 'TL');
-INSERT INTO countries.country (name, country_code) VALUES('Южная Африка', 'ZA');
-INSERT INTO countries.country (name, country_code) VALUES('Лесото', 'LS');
-INSERT INTO countries.country (name, country_code) VALUES('Мексика', 'MX');
-INSERT INTO countries.country (name, country_code) VALUES('Уругвай', 'UY');
-INSERT INTO countries.country (name, country_code) VALUES('Бразилия', 'BR');
-INSERT INTO countries.country (name, country_code) VALUES('Боливия', 'BO');
-INSERT INTO countries.country (name, country_code) VALUES('Перу', 'PE');
-INSERT INTO countries.country (name, country_code) VALUES('Колумбия', 'CO');
-INSERT INTO countries.country (name, country_code) VALUES('Панама', 'PA');
-INSERT INTO countries.country (name, country_code) VALUES('Коста Рика', 'CR');
-INSERT INTO countries.country (name, country_code) VALUES('Никарагуа', 'NI');
-INSERT INTO countries.country (name, country_code) VALUES('Гондурас', 'HN');
-INSERT INTO countries.country (name, country_code) VALUES('Эль Сальвадор', 'SV');
-INSERT INTO countries.country (name, country_code) VALUES('Гватемала', 'GT');
-INSERT INTO countries.country (name, country_code) VALUES('Белиз', 'BZ');
-INSERT INTO countries.country (name, country_code) VALUES('Венисуэла', 'VE');
-INSERT INTO countries.country (name, country_code) VALUES('Гайана', 'GY');
-INSERT INTO countries.country (name, country_code) VALUES('Суринам', 'SR');
-INSERT INTO countries.country (name, country_code) VALUES('Франция', 'FR');
-INSERT INTO countries.country (name, country_code) VALUES('Эквадор', 'EC');
-INSERT INTO countries.country (name, country_code) VALUES('Пуэрто Рико', 'PR');
-INSERT INTO countries.country (name, country_code) VALUES('Ямайка', 'JM');
-INSERT INTO countries.country (name, country_code) VALUES('Куба', 'CU');
-INSERT INTO countries.country (name, country_code) VALUES('Зимбабве', 'ZW');
-INSERT INTO countries.country (name, country_code) VALUES('Ботавана', 'BW');
-INSERT INTO countries.country (name, country_code) VALUES('Намибия', 'NA');
-INSERT INTO countries.country (name, country_code) VALUES('Сенегал', 'SN');
-INSERT INTO countries.country (name, country_code) VALUES('Мали', 'ML');
-INSERT INTO countries.country (name, country_code) VALUES('Мавритания', 'MR');
-INSERT INTO countries.country (name, country_code) VALUES('Бенин', 'BJ');
-INSERT INTO countries.country (name, country_code) VALUES('Нигер', 'NE');
-INSERT INTO countries.country (name, country_code) VALUES('Нигерия', 'NG');
-INSERT INTO countries.country (name, country_code) VALUES('Камерун', 'CM');
-INSERT INTO countries.country (name, country_code) VALUES('Того', 'TG');
-INSERT INTO countries.country (name, country_code) VALUES('Гана', 'GH');
-INSERT INTO countries.country (name, country_code) VALUES('Кот-д''Ивуар', 'CI');
-INSERT INTO countries.country (name, country_code) VALUES('Гвинея', 'GN');
-INSERT INTO countries.country (name, country_code) VALUES('Гвинея-Бисау', 'GW');
-INSERT INTO countries.country (name, country_code) VALUES('Либерия', 'LR');
-INSERT INTO countries.country (name, country_code) VALUES('Сьерра-Леоне', 'SL');
-INSERT INTO countries.country (name, country_code) VALUES('Буркина-Фасо', 'BF');
-INSERT INTO countries.country (name, country_code) VALUES('Центральная Африканская Республика', 'CF');
-INSERT INTO countries.country (name, country_code) VALUES('Республика Конго', 'CG');
-INSERT INTO countries.country (name, country_code) VALUES('Габон', 'GA');
-INSERT INTO countries.country (name, country_code) VALUES('Экваториальная Гвинея', 'GQ');
-INSERT INTO countries.country (name, country_code) VALUES('Замбия', 'ZM');
-INSERT INTO countries.country (name, country_code) VALUES('Малави', 'MW');
-INSERT INTO countries.country (name, country_code) VALUES('Мозамбик', 'MZ');
-INSERT INTO countries.country (name, country_code) VALUES('Эсватини', 'SZ');
-INSERT INTO countries.country (name, country_code) VALUES('Ангола', 'AO');
-INSERT INTO countries.country (name, country_code) VALUES('Бурунди', 'BI');
-INSERT INTO countries.country (name, country_code) VALUES('Израиль', 'IL');
-INSERT INTO countries.country (name, country_code) VALUES('Лебанон', 'LB');
-INSERT INTO countries.country (name, country_code) VALUES('Мадагаскар', 'MG');
-INSERT INTO countries.country (name, country_code) VALUES('Палестина', 'PS');
-INSERT INTO countries.country (name, country_code) VALUES('Гамбия', 'GM');
-INSERT INTO countries.country (name, country_code) VALUES('Тунис', 'TN');
-INSERT INTO countries.country (name, country_code) VALUES('Алжир', 'DZ');
-INSERT INTO countries.country (name, country_code) VALUES('Иордания', 'JO');
-INSERT INTO countries.country (name, country_code) VALUES('Объединенные Арабские Имираты', 'AE');
-INSERT INTO countries.country (name, country_code) VALUES('Кватар', 'QA');
-INSERT INTO countries.country (name, country_code) VALUES('Кувейт', 'KW');
-INSERT INTO countries.country (name, country_code) VALUES('Ирак', 'IQ');
-INSERT INTO countries.country (name, country_code) VALUES('Оман', 'OM');
-INSERT INTO countries.country (name, country_code) VALUES ('Вануату', 'VU');
-INSERT INTO countries.country (name, country_code) VALUES ('Камбоджа', 'KH');
-INSERT INTO countries.country (name, country_code) VALUES ('Таиланд', 'TH');
-INSERT INTO countries.country (name, country_code) VALUES ('Лаос', 'LA');
-INSERT INTO countries.country (name, country_code) VALUES ('Мьянма', 'MM');
-INSERT INTO countries.country (name, country_code) VALUES ('Вьетнам', 'VN');
-INSERT INTO countries.country (name, country_code) VALUES ('КНДР', 'KP');
-INSERT INTO countries.country (name, country_code) VALUES ('Южная Корея', 'KR');
-INSERT INTO countries.country (name, country_code) VALUES ('Монголия', 'MN');
-INSERT INTO countries.country (name, country_code) VALUES ('Индия', 'IN');
-INSERT INTO countries.country (name, country_code) VALUES ('Бангладеш', 'BD');
-INSERT INTO countries.country (name, country_code) VALUES ('Бутан', 'BT');
-INSERT INTO countries.country (name, country_code) VALUES ('Непал', 'NP');
-INSERT INTO countries.country (name, country_code) VALUES ('Пакистан', 'PK');
-INSERT INTO countries.country (name, country_code) VALUES ('Афганистан', 'AF');
-INSERT INTO countries.country (name, country_code) VALUES ('Таджикистан', 'TJ');
-INSERT INTO countries.country (name, country_code) VALUES ('Киргизия', 'KG');
-INSERT INTO countries.country (name, country_code) VALUES ('Туркменистан', 'TM');
-INSERT INTO countries.country (name, country_code) VALUES ('Иран', 'IR');
-INSERT INTO countries.country (name, country_code) VALUES ('Сирия', 'SY');
-INSERT INTO countries.country (name, country_code) VALUES ('Армения', 'AM');
-INSERT INTO countries.country (name, country_code) VALUES ('Швеция', 'SE');
-INSERT INTO countries.country (name, country_code) VALUES ('Беларусь', 'BY');
-INSERT INTO countries.country (name, country_code) VALUES ('Украина', 'UA');
-INSERT INTO countries.country (name, country_code) VALUES ('Польша', 'PL');
-INSERT INTO countries.country (name, country_code) VALUES ('Австрия', 'AT');
-INSERT INTO countries.country (name, country_code) VALUES ('Венгрия', 'HU');
-INSERT INTO countries.country (name, country_code) VALUES ('Молдавия', 'MD');
-INSERT INTO countries.country (name, country_code) VALUES ('Румыния', 'RO');
-INSERT INTO countries.country (name, country_code) VALUES ('Литва', 'LT');
-INSERT INTO countries.country (name, country_code) VALUES ('Латвия', 'LV');
-INSERT INTO countries.country (name, country_code) VALUES ('Эстония', 'EE');
-INSERT INTO countries.country (name, country_code) VALUES ('Германия', 'DE');
-INSERT INTO countries.country (name, country_code) VALUES ('Болгария', 'BG');
-INSERT INTO countries.country (name, country_code) VALUES ('Греция', 'GR');
-INSERT INTO countries.country (name, country_code) VALUES ('Турция', 'TR');
-INSERT INTO countries.country (name, country_code) VALUES ('Албания', 'AL');
-INSERT INTO countries.country (name, country_code) VALUES ('Хорватия', 'HR');
-INSERT INTO countries.country (name, country_code) VALUES ('Швейцария', 'CH');
-INSERT INTO countries.country (name, country_code) VALUES ('Люксембург', 'LU');
-INSERT INTO countries.country (name, country_code) VALUES ('Бельгия', 'BE');
-INSERT INTO countries.country (name, country_code) VALUES ('Нидерланды', 'NL');
-INSERT INTO countries.country (name, country_code) VALUES ('Португалия', 'PT');
-INSERT INTO countries.country (name, country_code) VALUES ('Испания', 'ES');
-INSERT INTO countries.country (name, country_code) VALUES ('Ирландия', 'IE');
-INSERT INTO countries.country (name, country_code) VALUES ('Новая Каледония', 'NC');
-INSERT INTO countries.country (name, country_code) VALUES ('Соломоновы Острова', 'SB');
-INSERT INTO countries.country (name, country_code) VALUES ('Новая Зеландия', 'NZ');
-INSERT INTO countries.country (name, country_code) VALUES ('Австралия', 'AU');
-INSERT INTO countries.country (name, country_code) VALUES ('Шри-Ланка', 'LK');
-INSERT INTO countries.country (name, country_code) VALUES ('Китай', 'CN');
-INSERT INTO countries.country (name, country_code) VALUES ('Тайвань', 'TW');
-INSERT INTO countries.country (name, country_code) VALUES ('Италия', 'IT');
-INSERT INTO countries.country (name, country_code) VALUES ('Дания', 'DK');
-INSERT INTO countries.country (name, country_code) VALUES ('Великобритания', 'GB');
-INSERT INTO countries.country (name, country_code) VALUES ('Исландия', 'IS');
-INSERT INTO countries.country (name, country_code) VALUES ('Азербайджан', 'AZ');
-INSERT INTO countries.country (name, country_code) VALUES ('Грузия', 'GE');
-INSERT INTO countries.country (name, country_code) VALUES ('Филиппины', 'PH');
-INSERT INTO countries.country (name, country_code) VALUES ('Малайзия', 'MY');
-INSERT INTO countries.country (name, country_code) VALUES ('Бруней', 'BN');
-INSERT INTO countries.country (name, country_code) VALUES ('Словения', 'SI');
-INSERT INTO countries.country (name, country_code) VALUES ('Финляндия', 'FI');
-INSERT INTO countries.country (name, country_code) VALUES ('Словакия', 'SK');
-INSERT INTO countries.country (name, country_code) VALUES ('Чехия', 'CZ');
-INSERT INTO countries.country (name, country_code) VALUES ('Эритрея', 'ER');
-INSERT INTO countries.country (name, country_code) VALUES ('Япония', 'JP');
-INSERT INTO countries.country (name, country_code) VALUES ('Парагвай', 'PY');
-INSERT INTO countries.country (name, country_code) VALUES ('Йемен', 'YE');
-INSERT INTO countries.country (name, country_code) VALUES ('Саудовская Аравия', 'SA');
-INSERT INTO countries.country (name, country_code) VALUES ('Северный Кипр', 'CYP');
-INSERT INTO countries.country (name, country_code) VALUES ('Кипр', 'CY');
-INSERT INTO countries.country (name, country_code) VALUES ('Марокко', 'MA');
-INSERT INTO countries.country (name, country_code) VALUES ('Египет', 'EG');
-INSERT INTO countries.country (name, country_code) VALUES ('Ливия', 'LY');
-INSERT INTO countries.country (name, country_code) VALUES ('Эфиопия', 'ET');
-INSERT INTO countries.country (name, country_code) VALUES ('Джибути', 'DJ');
-INSERT INTO countries.country (name, country_code) VALUES ('Сомалиленд', 'SOM');
-INSERT INTO countries.country (name, country_code) VALUES ('Уганда', 'UG');
-INSERT INTO countries.country (name, country_code) VALUES ('Руанда', 'RW');
-INSERT INTO countries.country (name, country_code) VALUES ('Босния и Герцеговина', 'BA');
-INSERT INTO countries.country (name, country_code) VALUES ('Македония', 'MK');
-INSERT INTO countries.country (name, country_code) VALUES ('Сербия', 'RS');
-INSERT INTO countries.country (name, country_code) VALUES ('Черногория', 'ME');
-INSERT INTO countries.country (name, country_code) VALUES ('Косово', 'XK');
-INSERT INTO countries.country (name, country_code) VALUES ('Тринидад и Тобаго', 'TT');
-INSERT INTO countries.country (name, country_code) VALUES ('Южный Судан', 'SS');
-
-
-
-
-
-
-
-
-
+INSERT INTO countries.country(country_name, iso_code)
+values ('Fiji', 'FJ');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Tanzania', 'TZ');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Western Sahara', 'EH');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Canada', 'CA');
+INSERT INTO countries.country(country_name, iso_code)
+values ('United States', 'US');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Kazakhstan', 'KZ');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Uzbekistan', 'UZ');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Papua New Guinea', 'PG');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Indonesia', 'ID');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Argentina', 'AR');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Chile', 'CL');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Democratic Republic of the Congo', 'CD');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Somalia', 'SO');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Kenya', 'KE');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Sudan', 'SD');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Chad', 'TD');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Haiti', 'HT');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Dominican Republic', 'DO');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Russia', 'RU');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Bahamas', 'BS');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Falkland Islands', 'FK');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Norway', 'NO');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Greenland', 'GL');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Timor-Leste', 'TL');
+INSERT INTO countries.country(country_name, iso_code)
+values ('South Africa', 'ZA');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Lesotho', 'LS');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Mexico', 'MX');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Uruguay', 'UY');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Brazil', 'BR');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Bolivia', 'BO');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Peru', 'PE');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Colombia', 'CO');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Panama', 'PA');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Costa Rica', 'CR');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Nicaragua', 'NI');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Honduras', 'HN');
+INSERT INTO countries.country(country_name, iso_code)
+values ('El Salvador', 'SV');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Guatemala', 'GT');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Belize', 'BZ');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Venezuela', 'VE');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Guyana', 'GY');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Suriname', 'SR');
+INSERT INTO countries.country(country_name, iso_code)
+values ('France', 'FR');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Ecuador', 'EC');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Puerto Rico', 'PR');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Jamaica', 'JM');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Cuba', 'CU');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Zimbabwe', 'ZW');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Botswana', 'BW');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Namibia', 'NA');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Senegal', 'SN');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Mali', 'ML');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Mauritania', 'MR');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Benin', 'BJ');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Niger', 'NE');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Nigeria', 'NG');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Cameroon', 'CM');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Togo', 'TG');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Ghana', 'GH');
+INSERT INTO countries.country (country_name, iso_code)
+values ('Cote d''Ivoire', 'CI');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Guinea', 'GN');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Guinea-Bissau', 'GW');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Liberia', 'LR');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Sierra Leone', 'SL');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Burkina Faso', 'BF');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Central African Republic', 'CF');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Republic of the Congo', 'CG');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Gabon', 'GA');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Equatorial Guinea', 'GQ');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Zambia', 'ZM');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Malawi', 'MW');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Mozambique', 'MZ');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Eswatini', 'SZ');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Angola', 'AO');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Burundi', 'BI');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Israel', 'IL');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Lebanon', 'LB');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Madagascar', 'MG');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Palestine', 'PS');
+INSERT INTO countries.country(country_name, iso_code)
+values ('The Gambia', 'GM');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Tunisia', 'TN');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Algeria', 'DZ');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Jordan', 'JO');
+INSERT INTO countries.country(country_name, iso_code)
+values ('United Arab Emirates', 'AE');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Qatar', 'QA');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Kuwait', 'KW');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Iraq', 'IQ');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Oman', 'OM');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Vanuatu', 'VU');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Cambodia', 'KH');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Thailand', 'TH');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Lao PDR', 'LA');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Myanmar', 'MM');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Vietnam', 'VN');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Dem. Rep. Korea', 'KP');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Republic of Korea', 'KR');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Mongolia', 'MN');
+INSERT INTO countries.country(country_name, iso_code)
+values ('India', 'IN');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Bangladesh', 'BD');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Bhutan', 'BT');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Nepal', 'NP');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Pakistan', 'PK');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Afghanistan', 'AF');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Tajikistan', 'TJ');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Kyrgyzstan', 'KG');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Turkmenistan', 'TM');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Iran', 'IR');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Syria', 'SY');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Armenia', 'AM');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Sweden', 'SE');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Belarus', 'BY');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Ukraine', 'UA');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Poland', 'PL');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Austria', 'AT');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Hungary', 'HU');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Moldova', 'MD');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Romania', 'RO');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Lithuania', 'LT');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Latvia', 'LV');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Estonia', 'EE');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Germany', 'DE');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Bulgaria', 'BG');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Greece', 'GR');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Turkey', 'TR');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Albania', 'AL');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Croatia', 'HR');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Switzerland', 'CH');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Luxembourg', 'LU');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Belgium', 'BE');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Netherlands', 'NL');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Portugal', 'PT');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Spain', 'ES');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Ireland', 'IE');
+INSERT INTO countries.country(country_name, iso_code)
+values ('New Caledonia', 'NC');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Solomon Islands', 'SB');
+INSERT INTO countries.country(country_name, iso_code)
+values ('New Zealand', 'NZ');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Australia', 'AU');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Sri Lanka', 'LK');
+INSERT INTO countries.country(country_name, iso_code)
+values ('China', 'CN');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Taiwan', 'TW');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Italy', 'IT');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Denmark', 'DK');
+INSERT INTO countries.country(country_name, iso_code)
+values ('United Kingdom', 'GB');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Iceland', 'IS');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Azerbaijan', 'AZ');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Georgia', 'GE');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Philippines', 'PH');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Malaysia', 'MY');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Brunei Darussalam', 'BN');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Slovenia', 'SI');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Finland', 'FI');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Slovakia', 'SK');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Czech Republic', 'CZ');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Eritrea', 'ER');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Japan', 'JP');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Paraguay', 'PY');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Yemen', 'YE');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Saudi Arabia', 'SA');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Cyprus', 'CY');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Morocco', 'MA');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Egypt', 'EG');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Libya', 'LY');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Ethiopia', 'ET');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Djibouti', 'DJ');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Uganda', 'UG');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Rwanda', 'RW');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Bosnia and Herzegovina', 'BA');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Macedonia', 'MK');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Serbia', 'RS');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Montenegro', 'ME');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Kosovo', 'XK');
+INSERT INTO countries.country(country_name, iso_code)
+values ('Trinidad and Tobago', 'TT');
+INSERT INTO countries.country(country_name, iso_code)
+values ('South Sudan', 'SS');

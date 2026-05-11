@@ -8,14 +8,16 @@ import java.util.UUID;
 @Entity
 @Table(name = "country")
 public class CountryEntity {
-
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     @Column(name = "id", nullable = false)
     private UUID id;
 
-    @Column(nullable = false)
+    @Column(name = "country_name", nullable = false)
     private String name;
+
+    @Column(name = "iso_code", nullable = false, unique = true, length = 2)
+    private String countryCode;
 
     public UUID getId() {
         return id;
@@ -40,12 +42,6 @@ public class CountryEntity {
     public void setCountryCode(String countryCode) {
         this.countryCode = countryCode;
     }
-
-    @Column(name = "country_code", nullable = false)
-
-
-
-    private String countryCode;
 
     @Override
     public boolean equals(Object o) {

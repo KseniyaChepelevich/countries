@@ -23,13 +23,8 @@ public class DbCountryService implements CountryService {
     public List<Country> allCountries() {
         return countryRepository.findAll()
                 .stream()
-                .map(countryEntity -> {
-                    return new Country(
-                            countryEntity.getId(),
-                            countryEntity.getCountryCode(),
-                            countryEntity.getName()
-                    );
-                }).toList();
+                .map(this::mapToDomain)
+                .toList();
 
     }
 
@@ -41,7 +36,7 @@ public class DbCountryService implements CountryService {
     public Country addCountry(Country country) {
         CountryEntity entity = new CountryEntity();
         entity.setName(country.name());
-        entity.setCountryCode(country.country_code());
+        entity.setCountryCode(country.countryCode());
         CountryEntity saved = countryRepository.save(entity);
         return mapToDomain(saved);
     }
