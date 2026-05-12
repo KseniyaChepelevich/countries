@@ -1,14 +1,15 @@
 package io.student.countries.service;
 
-import io.student.countries.domain.Country;
+import io.student.countries.domain.CountryResponse;
 import io.student.countries.domain.CountryUpdateDto;
+import io.student.countries.domain.CreateCountryRequest;
 
 import java.util.List;
 
 public interface CountryService {
-    List<Country> allCountries();
+    List<CountryResponse> allCountries();
 
-    Country addCountry(Country country);
+    CountryResponse addCountry(CreateCountryRequest country);
 
-    Country updateCountryName(String countryCode, CountryUpdateDto updateDto);
+    CountryResponse updateCountryName(String countryCode, CountryUpdateDto updateDto);
 }

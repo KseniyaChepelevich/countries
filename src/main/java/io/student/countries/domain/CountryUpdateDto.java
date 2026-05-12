@@ -1,4 +1,4 @@
 package io.student.countries.domain;
 
-public record CountryUpdateDto(String name, String countryCode) {
+public record CountryUpdateDto(String name) {
 }
